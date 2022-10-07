@@ -38,7 +38,7 @@ body {
 
 .header .nav {
   display: flex;
-  justify-content: flex-end;
+  /* align-items: center; */
   gap: 1.5rem;
 }
 
@@ -52,6 +52,7 @@ body {
 .hero-banner {
   display: flex;
   flex-direction: row-reverse;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 1rem;
   background-color: #1f2937;
@@ -69,12 +70,12 @@ body {
 }
 
 .hero-image-container {
-  flex: 1;
+  flex: 2;
   display: flex;
 }
 
 .hero-image {
-  flex: 1;
+  flex: 2;
   width: 240px;
 }
 
@@ -83,10 +84,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  color: #e5e7eb;
+  font-size: 14px;
 }
 
 .hero-button {
-  width: 50%;
+  width: 120px;
   border-radius: 5px;
   background-color: #3882f6;
   font-size: 14px;
@@ -98,14 +101,17 @@ body {
 
 .information h2 {
   text-align: center;
+  font-size: 30px;
   font-weight: 900;
   color: #1f2937;
+  margin: 48px 0px;
 }
 
 .tiles {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 0px 20%;
 }
 
 .tile {
@@ -113,6 +119,8 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  font-size: 14px;
+  padding: 0px 16px;
 }
 
 .tile-image {
