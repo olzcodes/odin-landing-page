@@ -9,6 +9,9 @@ More information: https://www.theodinproject.com/lessons/foundations-landing-pag
 Content and images for this project were borrowed from the sources below.
 
 https://www.worldhistory.org/odin/ (content)
+
 https://mythologysource.com/odin-king-norse-gods/ (image)
+
 Profile Pictures (image)
+
 Marvel Studios (images)
