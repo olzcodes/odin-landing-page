@@ -38,13 +38,14 @@ body {
 
 .header .nav {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   gap: 1.5rem;
 }
 
 .header a {
   color: #f9faf8;
   text-decoration: none;
+  padding-top: 6px;
 }
 
 /* hero-banner */
@@ -150,7 +151,7 @@ body {
 .testimonials {
   background-color: #e5e7eb;
   color: #1f2937;
-  padding: 72px 240px;
+  padding: 72px 15%;
 }
 
 .testimonial {
@@ -163,38 +164,40 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
+  margin-top: 12px;
   margin-right: 36px;
 }
 
 /* cta */
 
 .call-to-action {
-  padding: 90px 15%;
+  padding: 90px 10%;
 }
 
 .cta-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
   background-color: #3882f6;
   color: #f9faf8;
   border-radius: 8px;
-  padding: 36px 96px;
+  padding: 36px 10%;
 }
 
 .cta-header {
   font-size: 20px;
   font-weight: 700;
-  /* padding: 8px 0px; */
 }
 
 .cta-text {
+  min-width: 80%;
   font-weight: 400;
 }
 
 .cta-button {
-  width: 140px;
+  min-width: 120px;
   background-color: #3882f6;
   color: white;
   border: 2px solid white;
@@ -213,4 +216,52 @@ body {
   background-color: #1f2937;
   color: #f9faf8;
   padding: 36px 0px;
+}
+
+/* For Mobile Screens */
+
+@media only screen and (max-width: 450px) {
+  .header {
+    padding: 12px 2%;
+  }
+
+  .header .nav {
+    gap: 0.6rem;
+  }
+
+  .hero-banner {
+    padding: 36px 15%;
+    padding-top: 18px;
+  }
+
+  .hero-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .information {
+    padding-bottom: 60px;
+  }
+
+  .testimonials {
+    padding: 48px 24px;
+  }
+
+  .testimonial-sig {
+    margin-right: 12px;
+  }
+
+  .call-to-action {
+    padding: 48px 10%;
+  }
+
+  .cta-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 24px 24px;
+  }
+
+  .footer {
+    padding: 18px 0px;
+  }
 }
