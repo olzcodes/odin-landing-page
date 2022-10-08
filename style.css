@@ -10,9 +10,9 @@ html {
   box-sizing: inherit;
 }
 
-* {
+/* * {
   border: 1px solid red;
-}
+} */
 
 body {
   display: flex;
