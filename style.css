@@ -170,11 +170,11 @@ body {
   height: 160px;
   border: 4px solid #3882f6;
   border-radius: 12px;
-  overflow: visible;
+  overflow: hidden;
 }
 
 .tile-image:hover {
-  border: 6px solid #1f2937;
+  border: 4px solid #1f2937;
   box-shadow: 0 0 50px #1f2937;
 }
 
